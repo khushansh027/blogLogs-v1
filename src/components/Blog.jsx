@@ -11,7 +11,7 @@ import { collection, deleteDoc, doc, onSnapshot, setDoc } from "firebase/firesto
 import { formatDate, handleImageFileUpload, applyFormatCommand } from "../helpers/blogHelper.js";
 
 // Import styles
-import "./blog.css";
+import "./Blog.css";
 
 export default function Blog() {
     const [formData, setformData] = useState({
@@ -431,3 +431,4 @@ export default function Blog() {
         </div>
     );
 }
+
